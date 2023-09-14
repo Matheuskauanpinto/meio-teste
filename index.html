@@ -29,6 +29,16 @@
 
 <iframe src="/conteudo/conteudo.html" class="iframec" frameborder="0" scrolling="yes" width="100%" height="100%"></iframe>
 
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var menuIcon = document.getElementById("menu-icon");
+        var menu = document.getElementById("menu");
+
+        menuIcon.addEventListener("click", function () {
+            menu.classList.toggle("active");
+        });
+    });
+</script>
 
 
 </html>
