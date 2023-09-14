@@ -84,3 +84,35 @@ html, body {
     width: 80%; /* Wider iframe container */
     height: 400px;
 }
+
+/* Estilos para o ícone do menu */
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Estilos para o menu */
+.menu {
+    display: none;
+    background-color: #018d18;
+    color: #fff;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 200px;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.menu a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+/* Estilo para mostrar o menu quando o ícone é clicado */
+.menu.active {
+    display: flex;
+}
+
