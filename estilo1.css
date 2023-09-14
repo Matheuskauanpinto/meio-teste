@@ -1,103 +1,86 @@
+/* Reset some default styles for HTML and body elements */
 html, body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0; 
-    color: #fff; 
+    background-color: #f0f0f0;
+    color: #333;
 }
 
+/* Improved styling for the top header */
 .superior {
     background-color: #018d18;
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
-    height: 50px; 
+    padding: 10px 1%; /* Increase top and bottom padding */
+    height: 80px; /* Increase header height for better visibility */
 }
 
-
+/* Styling for the logo image */
 .logo {
-    width: 10%; 
-    height: 100%; 
+    width: 100px; /* Increase the logo width */
+    height: auto; /* Maintain aspect ratio */
     background-image: url('logo.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-
-.titulo a{
-    color: inherit;
+/* Improved styling for the page title */
+.titulo a {
+    color: #fff;
     text-decoration: none;
+    font-size: 24px; /* Increase font size */
 }
 
-
-.titulo {
-    font-size: 150%;
-}
-
-
+/* Central content container with improved box-shadow */
 .central {
-    background-color: #fff; 
+    background-color: #fff;
     padding: 2%;
     margin: 2% auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Increase box-shadow */
 }
 
-.meio {
-    display: flex;
-    justify-content: space-between;
-}
-
-.menor a{
-    color: inherit;
+/* Improved styling for links in the central content */
+.menor a {
+    color: #fff;
     text-decoration: none;
-}
-
-
-.menor {
-    background-color: #00a030; 
-    flex: 1;
+    display: block; /* Make links block elements for better spacing */
+    padding: 10px 0; /* Increase top and bottom padding */
+    background-color: #00a030;
     text-align: center;
-    padding: 1%;
-    margin: 0.5%;
-    text-decoration: none;
-    color: #fff; 
+    margin: 10px 0; /* Increase vertical margin */
+    border-radius: 5px; /* Add rounded corners */
 }
 
-
-
+/* Improved styling for the inferior section */
 .inferior {
-    background-color: #009908; 
-    color: #fff; 
+    background-color: #009908;
+    color: #fff;
     text-align: center;
-    padding: 2%;
-    width: 50%; 
-    height: 5%;
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    flex-direction: column; 
+    padding: 20px 0; /* Increase top and bottom padding */
+    width: 80%; /* Wider content container */
     margin: 0 auto;
-
 }
 
+/* Styling for the inferior title */
 .inferior_titulo {
-    font-size: 24px;
-
+    font-size: 28px; /* Increase font size */
 }
 
+/* Improved styling for iframes */
 .iframec {
-    background-color: #fff; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-    padding: 2%;
-    color: #333; 
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Increase padding */
+    color: #333;
     text-align: center;
     display: flex;
-    justify-content: center; 
-    align-items: center; 
-    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin: 0 auto;
-    width: 50%; 
+    width: 80%; /* Wider iframe container */
     height: 400px;
 }
